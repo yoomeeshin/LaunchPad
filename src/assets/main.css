@@ -1,0 +1,166 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('/fonts/LeagueSpartan-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('/fonts/LeagueSpartan-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('/fonts/Karla-Regular.ttf') format('truetype'); 
+  font-weight: 400; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('src/assets/Karla/static/Karla-Bold.ttf') format('truetype'); 
+  font-weight: 700; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('src/assets/Karla/static/Karla-Italic.ttf') format('truetype'); 
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('src/assets/Karla/static/Karla-BoldItalic.ttf') format('truetype'); 
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-league-spartan {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+}
+
+
+.font-karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  height: 200%;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  position: flex;
+  top: 0;
+  bottom: 0;
+}
+
+.gradient {
+  height: 200%;
+  width: 100%;
+  background-image: 
+    linear-gradient(rgba(1, 1, 19), rgba(0, 23, 52), rgba(10, 59, 67), rgba(120, 161, 165));
+  opacity: 0.5;
+  position: absolute;
+  z-index: 2;
+}  
+
+.bg-img {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-attachment: scroll;
+  transform: translate(-3%, 0%);
+}
+
+html,
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+#app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+}
+
+
+
+header {
+  color: #fff;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 70px;
+  z-index: 3;
+  display: flex;
+}
+
+.text-overlay {
+  position: absolute; 
+  max-height: 100%;
+  left: 50%; 
+  transform: translate(-50%, 5%); 
+  color: white; 
+  text-align: center; 
+  z-index: 3; 
+  width: 90%; 
+}
+
+h1 {
+  color: #fff;
+  padding: 10px 0;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  z-index: 3;
+}
+
+header.main-title h2, h3 { 
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  top: 100%;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+

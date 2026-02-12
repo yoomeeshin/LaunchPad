@@ -4,32 +4,35 @@
 
 A recruitment transparency platform that aggregates and visualizes hiring data from anonymous candidate experiences across multiple companies and industries. This transforms fragmented, inconsistent recruitment information into actionable insights through a modern, scalable architecture built on Vue.js and Firebase.
 
-## Project Impact & Scale 
+## Project Impact & Scale
 
-- Data Aggregation: Standardized thousands of fragmented recruitment data points into a unified, queryable NoSQL schema, reducing candidate research time by 60%.
+- **Data Aggregation:** Standardized thousands of fragmented recruitment data points into a unified, queryable NoSQL schema, reducing candidate research time by 60%.
 
-- Performance: Architected a modular frontend with 25+ reusable components, achieving sub-second query latency for real-time dashboard interactions.
+- **Performance:** Architected a modular frontend with 25+ reusable components, achieving sub-second query latency for real-time dashboard interactions.
 
-- System Reliability: Implemented a zero-downtime architecture using Firebase Hosting and Firestore real-time synchronization, resulting in 100% elimination of cascading UI failures through logic isolation.
+- **System Reliability:** Implemented a zero-downtime architecture using Firebase Hosting and Firestore real-time synchronization, resulting in 100% elimination of cascading UI failures through logic isolation.
 
-- User Efficiency: Automated the computation of 10+ KPIs (e.g., interview-to-hire ratios, response rates), saving users an estimated 2+ hours per week of manual data collection.
+- **User Efficiency:** Automated the computation of 10+ KPIs (e.g., interview-to-hire ratios, response rates), saving users an estimated 2+ hours per week of manual data collection.
+
 
 ## Core Engineering Features
-- Multi-Dimensional Analytics: Developed interactive dashboards using Chart.js and ApexCharts to visualize stage-by-stage conversion ratios and skill demand trends.
 
-- High-Granularity Filtering: Built an advanced search engine with 8+ filter dimensions (GPA, Industry, Role, etc.) to enable precise company discovery across a growing database.
+- **Multi-Dimensional Analytics:** Developed interactive dashboards using Chart.js and ApexCharts to visualize stage-by-stage conversion ratios and skill demand trends.
 
-- AI Recommendation Engine: Integrated OpenAI to build a matching system that correlates candidate profiles with historical success patterns, providing data-driven "probability scores" for applications.
+- **High-Granularity Filtering:** Built an advanced search engine with 8+ filter dimensions (GPA, Industry, Role, etc.) to enable precise company discovery across a growing database.
 
-- Secure & Anonymous Architecture: Engineered a 100% anonymous submission pipeline with Firebase Auth and custom Firestore security rules to protect user identity while maintaining data integrity.
+- **AI Recommendation Engine:** Integrated OpenAI to build a matching system that correlates candidate profiles with historical success patterns, providing data-driven probability scores for applications.
+
+- **Secure & Anonymous Architecture:** Engineered a 100% anonymous submission pipeline with Firebase Auth and custom Firestore security rules to protect user identity while maintaining data integrity.
+
 
 ## Technical Architecture
 
-- Frontend: Vue 3.5 (Composition API) + Vue Router 4 (5 main application routes).
+- **Frontend:** Vue 3.5 (Composition API) + Vue Router 4 (5 main application routes)
 
-- Backend: Firebase ecosystem (Firestore for real-time DB, Storage for assets, Hosting for global CDN).
+- **Backend:** Firebase ecosystem (Firestore for real-time DB, Storage for assets, Hosting for global CDN)
 
-- Logic: Modular component architecture for independent feature scaling and <1 day onboarding for new metrics.
+- **Logic:** Modular component architecture for independent feature scaling and <1 day onboarding for new metrics
 
 ## How Users Can Get Started
 
